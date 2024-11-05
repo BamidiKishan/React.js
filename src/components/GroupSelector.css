@@ -1,0 +1,18 @@
+.group-selector {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 1em;
+  }
+  
+  .group-selector label {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .group-selector select {
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+  

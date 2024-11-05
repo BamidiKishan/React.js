@@ -1,0 +1,32 @@
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .kanban-board {
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+    overflow-x: auto;
+  }
+  
+  .kanban-column {
+    min-width: 300px;
+    background-color: #f4f4f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+  }
+  
+  .kanban-column h2 {
+    font-size: 1em;
+    margin-bottom: 1em;
+    color: #333;
+  }
+  
+  .tickets-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  

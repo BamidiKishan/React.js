@@ -1,0 +1,57 @@
+.ticket {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    margin: 0.5em 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ticket-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ticket-id {
+    color: #888;
+    font-weight: bold;
+  }
+  
+  .ticket-avatar img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .ticket-title {
+    font-size: 1.1em;
+    margin: 0.5em 0;
+  }
+  
+  .ticket-footer {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+  }
+  
+  .priority-icon {
+    background-color: #eee;
+    padding: 0.3em;
+    border-radius: 4px;
+  }
+  
+  .priority-4 { color: #ff4d4d; } /* Urgent */
+  .priority-3 { color: #ff9900; } /* High */
+  .priority-2 { color: #ffcc00; } /* Medium */
+  .priority-1 { color: #66cc66; } /* Low */
+  .priority-0 { color: #999; } /* No priority */
+  
+  .ticket-tag {
+    font-size: 0.8em;
+    color: #666;
+    background-color: #f3f3f3;
+    padding: 0.2em 0.6em;
+    border-radius: 4px;
+  }
+  
